@@ -1,0 +1,184 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>A Tribute Page</title>
+  <link rel="stylesheet" href="salma.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div id="main-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#background">Background</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#facts">Fun Facts</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="subject">
+      <h1 id="title">Stephen Hawking</h1>
+      <h4>Theoretical physicist | Cosmologist | Renowned Author | Director of Research, Centre for Theoretical Cosmology, University of Cambridge</h4>
+    </div>
+  </header>
+
+  <!-- main -->
+  <main id="main">
+    <!-- tribute info -->
+    <div id="tribute-info">
+      <div id="right">
+        		<div id="img-div">
+			<img class="center" id=image src="https://i.guim.co.uk/img/media/b36ce1d3e4122c3d9ea61aae97435427a2be6db7/0_314_3356_2014/master/3356.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=60ab4090e8670420d755b58c39ab63b4" alt="Stephen Hawking in his natural surroundings">
+			<div class="center"><br>
+        <p id="img-caption" class="font">Stephen Hawking at his office at the department of applied mathematics and theoretical physics at Cambridge University in 2005.</p> 
+         <br>
+			</div>
+        </div>
+      </div>
+      <div id="left">
+        <section id="about">
+          <div class="about-text">
+            <h2 id="about">About</h2>
+            <p>
+                    <div class="col-md-1"></div>
+      <div class="col-md-12">
+        <div class="content">
+  <div class="col-md-6 col-md-offset-3"> 
+    <p><center>
+Here's a time-line of Stephen Hawking's life:</center> </p>
+      <ul>
+        <li><b>1942-</b> Born on the 8th of January, in Oxford, Oxfordshire, England.<br> P.S : This day was the 300th anniversary of the death of the astronomer Galileo Galilei.</li>
+        <li><b>1959-</b> At the age of 17, Stephen was awarded a scholarship to the University of Oxford. He majored in physics, despite his father's urging to focus on medicine.</li>
+        <li><b>1962-</b> He began his graduate work at Trinity Hall, Cambridge.</li>
+<li><b>1963-</b> In early 1963, Just shy of his 21st birthday, Hawking was diagnosed with motor neuron disease, more commonly known as Lou Gehrig's disease or amyotrophic lateral sclerosis (ALS). </li>        
+        <li><b>1964-</b> Stephen publicly challenged the work of noted astronomer Fred Hoyle.</li>
+        <li><b>1966-</b> Obtained his PhD degree in applied mathematics and theoretical physics, specialising in general relativity and cosmology.</li>
+        <li><b>1970-</b> Appointed 'Sherman Fairchild Distinguished Scholar' at Caltech.</li>
+        <li><b>1971-</b> Stephens essay titled "Black Holes" won the Gravity research Foundation Award.</li> 
+        <li><b>1974-</b> Inducted into the Royal Society, a worldwide fellowship of scientists.</li>
+        <li><b>1975-</b> Appointed Lucasian Professor of Mathematics at Cambridge, the most famous academic chair in the world (the second holder was Sir Isaac Newton, also a member of the Royal Society).</li>
+        <li><b>1979-</b> Awarded the Albert Einstein Medal.</li>
+        <li><b>1985-</b> An emergency tracheotomy caused his total loss of speech.</li>
+        <li><b>1986-</b> A speech-generating device constructed at Cambridge, combined with a software program, served as his electronic voice, allowing Hawking to select his words by moving the muscles in his cheek.</li>
+        <li><b>1988-</b> "A Brief History of Time" was published.</li>
+        <li><b>1989-</b> Received the Prince of Asturias Award for Literature in Concord and was awarded Companion of Honour.</li>
+        <li><b>1998-</b> "A Brief History of Time" was recorded in the Guinness Book of Records for being on The Sunday Times best-sellers list for 237 weeks.</li>
+        <li><b>2001-</b>  Published 'The Universe in a Nutshell'.</li>
+        <li><b>2005-</b> "Information Loss in Black Holes" and "Black Holes and the Information Paradox" were published.</li>
+        <li><b>2006-</b> He posted an open question on the internet <i>"In a world that is in chaos poitically, socially and environmentally, how can the human race sustain another 100 years?"</i></li>
+        <li><b>2007-</b> Courtesy of Zero Gravity Corporation, Stephen participated in a zero-gravity flight.</li>
+        <li><b>2012-</b> Conceded he was wrong for saying the Higgs Boson particle would never be found. </li>
+        <li><b>2013-</b> Expressed support ofr the legalisation of assisted suicide for terminally ill.</li>
+        <li><b>2014-</b> Announced he is an Atheist.</li>
+        <li><b>2015-</b> Helped launch Breakthrough Initiatives, a program to search for extraterrestrial intelligence.</li>
+        <li>He died on 14 March 2018 at the age of 76.</li>
+      </ul>
+    </div>
+          </p>
+          </div>
+        </section>
+
+        <!-- background -->
+        <section id="background">
+          <div id="background-text">
+            <h2 id="background">Background</h2>
+            <p> Hawking was born on 8 January 1942 and grew up in St Albans, the eldest of four siblings.
+<br>
+His father was a research biologist and his mother a medical research secretary, so it was not surprising that he was interested in science. As a student he was drawn to physics and maths as he believed they offered the most fundamental insights into the world. 
+            </p>
+          </div>
+        </section>
+
+        <!-- research -->
+        <section id="research">
+          <div id="research-text">
+            <h2 id="research">His Scientific Legacy</h2>
+            <p>Some of the selected academic work by Stephen Hawking for science explorers:
+            </p>
+            <p>
+              <ul>
+                <li>The Singularities of Gravitational Collapse and Cosmology </li>
+                <li>Gravitational Radiation from Colliding Black Holes</li>
+<li>Black holes in general relativity
+  Communications in Mathematical Physics.</li>
+                <li>Black-hole explosions?</li>
+                <li>The development of irregularities in a single bubble inflationary universe</li>
+                <li>Wave function of the Universe</li>
+                <li>The Gravitational Hamiltonian in the Presence of Non-Orthogonal Boundaries</li>
+<li>Information loss in black holes</li>
+ <li>A smooth exit from eternal inflation?</li>
+            </ul>
+            </p>
+          </div>
+        </section>
+
+        <!-- fun facts -->
+        <section id="facts">
+          <div id="facts-text">
+            <h2 id="quote">Fun Facts</h2>
+            <ul>
+              <li><q>When he was a teenager, Stephen and his friends built a computer out of old clock parts, telephone switchboards and other recycled items. This lead his friends to nickname him, 'Einstein'!
+                </q></li>
+              <li><q>The animated version of Stephen Hawking appeared on The Simpsons for which he lent his voice himself.</q></li>
+              <li><q>Stephen grew up in a house where education was very important. His parents were both academics who had studied at Oxford University. Dinner times were often spent in silence while the family read books!</q></li>
+            </ul>
+            
+            <p> To know more about Stephen Hawking, do check out his
+              <a href="https://en.wikipedia.org/wiki/Stephen_Hawking" target="_blank" id="tribute-link">Wikipedia page.</a></p>
+          </div>
+        </section>
+      </div>
+      </div>
+      <!-- footer -->
+
+      <footer>
+        <div>Tribute made by Salma</div>
+      </footer>
+  
+  </main>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

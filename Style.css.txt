@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Nunito Sans', Times, serif;
+    background: rgba(245, 217, 245, 0.667);
+    font-size:1.2rem;
+    line-height:1.5rem;
+    width:100%;
+    margin:0;
+    padding:0;
+    color:rgb(41, 39, 39);
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border:2.5px solid #ff7003;
+    box-shadow: 0 3px 15px 0 #ff7003, 0 3px 25px 0 #ff7003;
+    
+}
+
+#img-div{
+    text-align: center;
+  color:#000000;
+}
+header{
+  color: #ffffff;
+    background: linear-gradient(to right, #ff7003, #f50a19, #1306a1);
+    min-height: 50vh;
+    font-family: 'Nunito Sans', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    margin-left: 2px;
+    text-align: center;
+    padding: 0.75rem
+
+}
+#main-nav ul{
+    margin-top: 0.5rem;
+
+}
+#main-nav li{
+    display: inline;
+    margin:3px;
+    padding:2.5px;
+}
+#main-nav li a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color:#ffffff;
+    transition:background 500ms ease;
+    padding:5px;
+}
+#main-nav li a:hover{
+    background:#fafafa;
+    color: #1306a1;
+}
+#subject{
+    margin-top:5rem;
+    text-align: center;
+}
+#main{
+    margin:0;
+}
+#title{
+    font-size: 3.54rem;
+}
+h2{
+  color: #ffffff;
+    text-align:center;
+    background:linear-gradient(to right, #ff7003, #f50a19, #1306a1);
+    padding: 1rem;
+}
+p{
+margin: 1rem;
+text-align: justify;
+}
+#quote-text ul{
+    line-height: 3rem;
+}
+#quote-text li{
+    list-style: linear-gradient(to right, green, white);
+}
+footer{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2rem;
+    background:linear-gradient(to right, #ff7003, #f50a19, #1306a1);
+    padding: 1rem;
+    margin-top: 1rem;
+
+}
+#tribute-link{
+    text-decoration: none;
+}
+@media(min-width:700px){
+    nav{
+        text-align: start;
+    }
+    #tribute-info{
+        display: flex;
+    }
+    #right{
+        flex:1;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+    }
+    #left{
+        flex:1;
+
+    }
+}
+  @media only screen and (min-width:480px)
+  {
+
+  }
+
+  @media only screen and (min-width:767px)
+  {
+
+  }
+
+  @media only screen and (min-width:991px)
+  {
+
+  }
+
+  @media only screen and (min-width:1200px)
+  {
+
+
+  @media(orientation: landscape)
+  {
+
+  }
