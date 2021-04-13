@@ -1,1 +1,1 @@
-# FreeCodeCamp_Responsive-Web-Design-Projects
+# FreeCodeCamp Responsive Web Design Projects
