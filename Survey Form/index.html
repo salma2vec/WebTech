@@ -1,0 +1,253 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Survey form</title>
+  <meta name="description" content="Survey form">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container-form">
+    <h1 id="title" class="rainbow-text">
+       <center>Survey Form</center></h1>
+ <center>   <p id="description">Thank you for taking the time to help us improve the platform</p> </center>
+
+ 
+        <form id="survey-form">
+      <div class="survey-item">
+        <label for="name" id="name-label"><span class="required">*</span>Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="survey-item">
+        <label for="email" id="email-label"><span class="required">*</span>Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="survey-item">
+        <label for="number" id="number-label">Age</label>
+        <input type="number" id="number" min="1" max="122" placeholder="Age">
+      </div>
+     <div class="survey-item">
+        <label for="dropdown">Gender</label>
+        <select name="genders" id="dropdown">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="shh" selected>Prefer not to answer</option>
+        </select>
+      </div> 
+          
+      <fieldset>
+        <legend>Would you recommend freeCodeCamp to a friend?</legend>
+        <input type="radio" name="radio" value="definitely">
+        <label for="radio">Definitely</label><br>
+        <input type="radio" name="radio" value="maybe">
+        <label for="radio">Maybe</label><br>
+        <input type="radio" name="radio" value="hmm">
+        <label for="radio">Not sure</label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Which devices do you use daily?</legend>
+        <input id="device-mobile" type="checkbox" name="device" value="mobile phone">
+        <label for="device-mobile">Mobile phone</label><br>
+        <input id="device-tablet" type="checkbox" name="device" value="tablet">
+        <label for="device-tablet">Tablet</label><br>
+        <input id="device-laptop" type="checkbox" name="device" value="laptop">
+        <label for="device-laptop">Laptop</label><br>
+        <input id="device-pc" type="checkbox" name="device" value="personal computer">
+        <label for="device-pc">Personal computer</label>
+      </fieldset>
+                      <div>
+              <p class="check-heading">
+                Which Certification have you completed?
+              </p>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="certification"
+                    id="certification"
+                    value="responsive web design"
+                  />
+                  <span class="form-check-mark"></span>
+                  Responsive Web Design
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="certification"
+                    id="certification"
+                    value="javascript algorithms and data structures"
+                  />
+                  <span class="form-check-mark"></span>
+                  JavaScript Algorithms and Data Structures
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="certification"
+                    id="certification"
+                    value="front end libraries"
+                  />
+                  <span class="form-check-mark"></span>
+                  Front End Development Libraries
+                </label>
+              </div>
+                        <div class="form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="certification"
+                    id="certification"
+                    value="front end libraries"
+                  />
+                  <span class="form-check-mark"></span>
+                  Quality Assurance
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="certification"
+                    id="certification"
+                    value="data visualization"
+                  />
+                  <span class="form-check-mark"></span>
+                  Data Analysis with Python
+                </label>
+              </div>
+                                     <div class="form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="certification"
+                    id="certification"
+                    value="data visualization"
+                  />
+                  <span class="form-check-mark"></span>
+                  Data Visualization
+                </label>
+              </div>
+
+                        <div class="form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="certification"
+                    id="certification"
+                    value="front end libraries"
+                  />
+                  <span class="form-check-mark"></span>
+                  Quality Assurance
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="certification"
+                    id="certification"
+                    value="data visualization"
+                  />
+                  <span class="form-check-mark"></span>
+                  Scientific Computing with Python
+                </label>
+             </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="certification"
+                    id="certification"
+                    value="apis and microservices"
+                  />
+                  <span class="form-check-mark"></span>
+                  APIs and Microservices
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="certification"
+                    id="certification"
+                    value="information security and quality assurance"
+                  />
+                  <span class="form-check-mark"></span>
+                  Information Security
+                </label>
+              </div>
+                        <div class="form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="certification"
+                    id="certification"
+                    value="front end libraries"
+                  />
+                  <span class="form-check-mark"></span>
+                  Quality Assurance
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="certification"
+                    id="certification"
+                    value="data visualization"
+                  />
+                  <span class="form-check-mark"></span>
+                  Coding Interview Prep
+                </label>
+             </div>
+         
+            </div>
+          </fieldset> 
+
+      <div class="survey-item">
+        <label for="comments" id="number-label">Any comments or suggestions?</label>
+        <textarea id="comments"placeholder="Enter your comments here"></textarea>
+      </div>
+
+      <button id="submit" class="button-hover color">
+        Submit
+      </button>
+    </form>
+
+  </div>
+
+</body>
+</html>
