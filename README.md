@@ -2,5 +2,5 @@
 
 - ## Tribute Page ---> [HERE](https://codepen.io/idealisticintj/pen/rNjdQGj)
 
-- ## Survey Form ---> [HERE](https://codepen.io/idealisticintj/pen/eYgrdmE?editors=0100)
+- ## Survey Form ---> [HERE](https://codepen.io/idealisticintj/pen/eYgrdmE)
 
