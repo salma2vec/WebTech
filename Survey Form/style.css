@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css?family=Extra-bold 800|Open+Sans");
+
+.container-form #survey-form .survey-item input, .container-form #survey-form .survey-item select, .container-form #survey-form textarea, .container-form #survey-form #submit {
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: #fffefc;
+}
+
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  font-size: 3em;
+  width: 5em;
+  line-height: 0.9em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-top: calc(15vh - 1em);
+}
+
+.rainbow-text {
+  background: #e6458d;
+  background-color: #e6458d;
+  background: conic-gradient(
+    #e6458d 16.666%, 
+    #f73b5e 16.666%, 
+    #f73b5e 33.333%, 
+    #f54085 33.333%, 
+    #a6144c 50%, 
+    #b54af7 50%, 
+    #e04af7 66.666%, 
+    #f74a67 66.666%, 
+    #e80051 83.333%, 
+    #ff3056 83.333%);
+  
+  background-size: 57%;
+  background-repeat: repeat;
+  
+ 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  animation: rainbow-text-animation-rev 0.5s ease forwards;
+
+  cursor: pointer;
+}
+
+.rainbow-text:hover {
+  animation: rainbow-text-animation 0.5s ease forwards;
+}
+
+@keyframes rainbow-text-animation {
+  0% {
+    background-size: 57%;
+    background-position: 0 0;
+  }
+  20% {
+    background-size: 57%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 300%;
+    background-position: -9em 1em;
+  }
+}
+
+@keyframes rainbow-text-animation-rev {
+  0% {
+    background-size: 300%;
+    background-position: -9em 1em;
+  }
+  20% {
+    background-size: 57%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 57%;
+    background-position: 0 0;
+  }
+}
+.container-form #survey-form .survey-item input, .container-form #survey-form .survey-item select, .container-form #survey-form textarea {
+  font-size: 1.1rem;
+  font-family: "Extra-bold 800", sans-serif;
+  padding: 0.5rem;
+  border-bottom: 1px solid #fa205e;
+  background-color: #ededed;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 25px;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fa205e;
+  padding: 0 1rem;
+}
+
+.container-form {
+  max-width: 750px;
+  margin: 2rem auto;
+  padding: 1rem;
+  line-height: 2;
+  font-family: "Bold 700", sans-serif;
+  background-color: white;
+  color: #fa205e;
+  border-style: dashed;
+  border-width: 4px;
+  box-shadow: -1px 0 13px #ffffff, 1px 0 5px #fa205e;
+}
+.container-form #title {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+.container-form #description {
+  font-size: 1.2rem;
+  border-bottom: 1px solid #fa205e;
+  display: inline-block;
+}
+.container-form #survey-form {
+  font-size: 1.1rem;
+}
+.container-form #survey-form .survey-item {
+  margin: 2rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.container-form #survey-form .survey-item label {
+  padding: 0 0.5rem;
+  margin: 0.5rem 0;
+  border-left: 3px solid #fa205e;
+}
+.container-form #survey-form .survey-item input {
+  align-self: flex-start;
+}
+.container-form #survey-form .survey-item select {
+  align-self: flex-start;
+}
+.container-form #survey-form fieldset {
+  border: 1px solid #fa205e;
+  padding: 0.5rem;
+  margin: 2.5rem 0;
+}
+.container-form #survey-form fieldset legend {
+  border-left: 3px solid #fa205e;
+  padding: 0 0.5rem;
+}
+.container-form #survey-form textarea {
+  max-width: 100%;
+  min-height: 100px;
+  padding: 0.5rem;
+  resize: none;
+  border-left: 3px solid #fa205e;
+}
+.container-form #survey-form #submit {
+  padding: 0.75rem 1rem;
+  color: white;
+  background-color: #fa205e;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+}
+
+.button {
+    margin: 10%;
+    text-align: center;
+}
+
+.button-hover {
+    width: 140px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.button-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button-hover:focus {
+    outline: none;
+}
+
+.button-hover.color {
+        background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
