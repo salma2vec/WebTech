@@ -1,4 +1,4 @@
-# FreeCodeCamp Responsive Web Design Projects
+# freeCodeCamp Responsive Web Design Projects
 
 - ## Tribute Page ---> [HERE](https://codepen.io/idealisticintj/pen/rNjdQGj)
 
