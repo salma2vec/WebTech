@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 *{
     box-sizing: border-box;
 }
 body{
-    font-family:'Nunito Sans', Times, serif;
+    font-family:'Garamond', Times, serif;
     background: rgba(245, 217, 245, 0.667);
-    font-size:1.2rem;
+    font-size:1.3rem;
     line-height:1.5rem;
     width:100%;
     margin:0;
@@ -16,8 +16,8 @@ img{
     max-width: 100%;
     height: auto;
     display: block;
-    border:2.5px solid #ff7003;
-    box-shadow: 0 3px 15px 0 #ff7003, 0 3px 25px 0 #ff7003;
+    border:2.5px solid #4A0100;
+    box-shadow: 0 3px 15px 0 #FD4659, 0 3px 25px 0 #FD4659;
     
 }
 
@@ -27,9 +27,10 @@ img{
 }
 header{
   color: #ffffff;
-    background: linear-gradient(to right, #ff7003, #f50a19, #1306a1);
+    background: linear-gradient(to right, 
+#4A0100, #FD4659,#FDB0C0);
     min-height: 50vh;
-    font-family: 'Nunito Sans', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Garamond', 'Arial Narrow', Arial, sans-serif;
 }
 nav{
     margin-left: 2px;
@@ -44,18 +45,19 @@ nav{
 #main-nav li{
     display: inline;
     margin:3px;
-    padding:2.5px;
+    padding: 2.5px;
 }
 #main-nav li a{
     font-size: 1.4rem;
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
     transition:background 500ms ease;
     padding:5px;
 }
 #main-nav li a:hover{
-    background:#fafafa;
-    color: #1306a1;
+  border-radius: 20px;;
+    background:#FDB0C0;
+    color: #4A0100;
 }
 #subject{
     margin-top:5rem;
@@ -70,7 +72,8 @@ nav{
 h2{
   color: #ffffff;
     text-align:center;
-    background:linear-gradient(to right, #ff7003, #f50a19, #1306a1);
+    background:linear-gradient(to right, 
+#4A0100, #FD4659,#FDB0C0);
     padding: 1rem;
 }
 p{
@@ -87,7 +90,8 @@ footer{
     color: #ffffff;
     text-align: center;
     font-size: 1.2rem;
-    background:linear-gradient(to right, #ff7003, #f50a19, #1306a1);
+    background:linear-gradient(to right, 
+#4A0100, #FD4659,#FDB0C0);
     padding: 1rem;
     margin-top: 1rem;
 
