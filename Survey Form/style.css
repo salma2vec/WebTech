@@ -1,16 +1,18 @@
-@import url("https://fonts.googleapis.com/css?family=Extra-bold 800|Open+Sans");
-
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+  @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 .container-form #survey-form .survey-item input, .container-form #survey-form .survey-item select, .container-form #survey-form textarea, .container-form #survey-form #submit {
   border: none;
   outline: none;
 }
 
 body {
-  background-color: #fffefc;
+  background-color: #192734;
 }
 
 h1 {
-  font-family: "Nunito Sans", sans-serif;
+  
+  font-family: "Varela Round", sans-serif;
+  color: #192734;
   font-weight: 800;
   font-size: 3em;
   width: 5em;
@@ -20,21 +22,20 @@ h1 {
   margin-top: 1em;
   margin-top: calc(15vh - 1em);
 }
-
 .rainbow-text {
-  background: #e6458d;
-  background-color: #e6458d;
+  background:  #192734;
+  background-color: #192734;
   background: conic-gradient(
-    #e6458d 16.666%, 
-    #f73b5e 16.666%, 
-    #f73b5e 33.333%, 
-    #f54085 33.333%, 
-    #a6144c 50%, 
-    #b54af7 50%, 
-    #e04af7 66.666%, 
-    #f74a67 66.666%, 
-    #e80051 83.333%, 
-    #ff3056 83.333%);
+    #25aae1 16.666%, 
+    #4481eb 16.666%, 
+    #04befe 33.333%, 
+    #3f86ed 33.333%, 
+    #04befe 50%, 
+    #4481eb 50%, 
+    #25aae1 66.666%, 
+    #04befe 66.666%, 
+    #3f86ed 83.333%, 
+    #4481eb 83.333%);
   
   background-size: 57%;
   background-repeat: repeat;
@@ -81,12 +82,14 @@ h1 {
     background-position: 0 0;
   }
 }
+
 .container-form #survey-form .survey-item input, .container-form #survey-form .survey-item select, .container-form #survey-form textarea {
+
   font-size: 1.1rem;
-  font-family: "Extra-bold 800", sans-serif;
+  font-family: "Varela Round", sans-serif;
   padding: 0.5rem;
-  border-bottom: 1px solid #fa205e;
-  background-color: #ededed;
+  border-bottom: 1px solid #19baff;
+  background-color:  #192734;
 }
 
 * {
@@ -99,7 +102,7 @@ h1 {
 body {
   width: 100%;
   min-height: 100vh;
-  background-color: #fa205e;
+  background-color: #19baff;
   padding: 0 1rem;
 }
 
@@ -108,12 +111,12 @@ body {
   margin: 2rem auto;
   padding: 1rem;
   line-height: 2;
-  font-family: "Bold 700", sans-serif;
+  font-family: "Varela Round", sans-serif;
   background-color: white;
-  color: #fa205e;
+  color: #19baff;
   border-style: dashed;
   border-width: 4px;
-  box-shadow: -1px 0 13px #ffffff, 1px 0 5px #fa205e;
+  box-shadow: -1px 0 13px #ffffff, 1px 0 5px #19baff;
 }
 .container-form #title {
   font-family: "Open Sans", sans-serif;
@@ -121,7 +124,7 @@ body {
 }
 .container-form #description {
   font-size: 1.2rem;
-  border-bottom: 1px solid #fa205e;
+  border-bottom: 1px solid #19baff;
   display: inline-block;
 }
 .container-form #survey-form {
@@ -135,21 +138,23 @@ body {
 .container-form #survey-form .survey-item label {
   padding: 0 0.5rem;
   margin: 0.5rem 0;
-  border-left: 3px solid #fa205e;
+  border-left: 3px solid #19baff;
 }
 .container-form #survey-form .survey-item input {
   align-self: flex-start;
+  color: white;
 }
 .container-form #survey-form .survey-item select {
   align-self: flex-start;
+  color: white;
 }
 .container-form #survey-form fieldset {
-  border: 1px solid #fa205e;
+  border: 1px solid #19baff;
   padding: 0.5rem;
   margin: 2.5rem 0;
 }
 .container-form #survey-form fieldset legend {
-  border-left: 3px solid #fa205e;
+  border-left: 3px solid #19baff;
   padding: 0 0.5rem;
 }
 .container-form #survey-form textarea {
@@ -157,13 +162,13 @@ body {
   min-height: 100px;
   padding: 0.5rem;
   resize: none;
-  border-left: 3px solid #fa205e;
+  border-left: 3px solid #19baff;
 }
 .container-form #survey-form #submit {
   padding: 0.75rem 1rem;
   color: white;
-  background-color: #fa205e;
-  font-family: "Open Sans", sans-serif;
+  background-color: #19baff;
+  font-family: "Varela Round", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   transition: all 0.3s ease-out;
@@ -211,6 +216,6 @@ body {
 }
 
 .button-hover.color {
-        background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+        background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
     box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
