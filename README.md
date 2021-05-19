@@ -4,3 +4,5 @@
 
 - ## Survey Form ---> [HERE](https://codepen.io/idealisticintj/pen/eYgrdmE)
 
+- ## Technical Documentation ---> [HERE](https://codepen.io/idealisticintj/pen/gOgdPeq)
+
