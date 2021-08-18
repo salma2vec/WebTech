@@ -1,0 +1,196 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FCC: Product Landing Page</title>
+  <script src="https://kit.fontawesome.com/58675639fe.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header id="header">
+    <img id="header-img" src="" alt="">
+    <a href="#" class="toggleNav"><i class="fas fa-bars"></i></a>
+    <a href="#" class="apple-logo"><i class="fab fa-apple fa-2x"></i></a>
+    <a href="#" class="cart"><i class="fas fa-shopping-bag"></i></a>
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="#" class="apple-logo-nav"><i class="fab fa-apple"></i></a></li>
+        <li><a href="#iphone" class="nav-link">iPhone</a></li>
+        <li><a href="#macbook" class="nav-link">MacBook</a></li>
+        <li><a href="#airpods" class="nav-link">AirPods</a></li>
+        <li><a href="#support" class="nav-link">Support</a></li>
+        <li><a href="#" class="cart"><i class="fas fa-shopping-bag"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article id="iphone" class="iphone product">
+      <section>
+        <div class="main-info">
+          <h2>iPhone SE</h2>
+          <p>Lots to love. Less to spend.</p>
+          <p>Starting at $399.</p>
+          <p class="other-payment">From $9.54/mo. or $229 with trade-in.<sup>1</sup></p>
+        </div>
+        <div class="extra-info">
+          <p><a href="https://www.apple.com/iphone-se/">Learn more</a><span>&gt;</span></p>
+          <p><a href="https://www.apple.com/shop/buy-iphone/iphone-se">Buy</a><span>&gt;</span></p>
+        </div>
+      </section>
+
+      <section class="product-img">
+        <img src="https://i.imgur.com/91qrezG.png" alt="iPhone SE">
+      </section>
+    </article>
+
+    <article id="macbook" class="macbook product">
+      <section>
+        <div class="main-info">
+          <p>13-inch model</p>
+          <h2>MacBook Pro</h2>
+          <p>Power. Moves.</p>
+        </div>
+        <div class="extra-info">
+          <p><a href="https://www.apple.com/macbook-pro-13/">Learn more</a><span>&gt;</span></p>
+          <p><a href="https://www.apple.com/shop/buy-mac/macbook-pro/13-inch">Buy</a><span>&gt;</span></p>
+        </div>
+      </section>
+
+      <section class="product-img">
+        <img src="https://i.imgur.com/aFrjb31.png" alt="MacBook Pro">
+      </section>
+    </article>
+
+    <article id="airpods" class="airpods product">
+      <section>
+        <div class="main-info">
+          <p>AirPods Pro</p>
+          <h2>Magic like you've never heard.</h2>
+        </div>
+        <div class="extra-info">
+          <p><a href="https://www.apple.com/airpods-pro/">Learn more</a><span>&gt;</span></p>
+          <p><a href="https://www.apple.com/shop/product/MWP22AM/A/airpods-pro">Buy</a><span>&gt;</span></p>
+        </div>
+      </section>
+
+      <section class="product-img">
+        <img src="https://i.imgur.com/bK3QrdN.png" alt="AirPods Pro">
+      </section>
+    </article>
+
+    <article id="video-wrapper">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ysRigNyavF4" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+
+    <article id="support" class="support product">
+      <section>
+        <div class="newsletter-text">
+          <h2>Get daily updates</h2>
+          <h2>From Apple</h2>
+        </div>
+        <div class="newsletter-form">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" name="email" id="email" placeholder="email address" required>
+            <input id="submit" type="submit" value="&#10140;">
+          </form>
+        </div>
+      </section>
+
+      <section id="t-and-c">
+        <p>
+          1. Trade In: Trade‑in values vary. iPhone 11 and iPhone 11 Pro promotional pricing is after trade‑in of iPhone
+          8 Plus
+          and iPhone X in good condition. iPhone SE promotional pricing is after trade-in of iPhone 8 in good condition.
+          Additional trade‑in values require purchase of a new iPhone, subject to availability and limits. Must be at
+          least 18.
+          Apple or its trade-in partners reserve the right to refuse or limit any Trade In transaction for any reason.
+          In‑store
+          trade‑in requires presentation of a valid, government-issued photo ID (local law may require saving this
+          information).
+          Sales tax may be assessed on full value of new iPhone. Additional terms from Apple or Apple’s trade-in
+          partners may
+          apply. Monthly pricing: Available to qualified customers and requires 0% APR, 24-month installment loan with
+          Citizens
+          One or Apple Card Monthly Installments and iPhone activation with AT&T, Sprint, T-Mobile, or Verizon. Taxes
+          and shipping
+          not included. Additional Apple Card Monthly Installments terms are in the <a
+            href="https://www.goldmansachs.com/terms-and-conditions/Apple-Card-Customer-Agreement.pdf">Customer
+            Agreement</a>. Additional
+          iPhone Payments
+          terms are <a href="https://www.apple.com/legal/sales-support/iphoneinstallments_us/">here</a>.
+        </p>
+        <br>
+        <p>
+          2. Apple Card Monthly Installments is available for certain Apple products and is subject to credit approval
+          and credit
+          limit. See <a href="https://support.apple.com/kb/HT211204">https://support.apple.com/kb/HT211204</a> for more
+          information about eligible products. iPhone
+          activation
+          required on iPhone purchases made at an Apple Store with one of these national carriers: AT&T, Sprint,
+          Verizon, or
+          T-Mobile. Variable APRs for Apple Card other than Apple Card Monthly Installments range from 10.99% to 21.99%
+          based on
+          creditworthiness. Rates as of April 1, 2020. Taxes and shipping are not included in Apple Card Monthly
+          Installments and
+          are subject to your standard purchase APR. See the Apple Card customer agreement for more information.
+        </p>
+        <br>
+        <p>
+          Magic Keyboard sold separately.
+        </p>
+        <br>
+        <p>
+          Apple TV+ is $4.99/month after free trial. One subscription per Family Sharing group. Offer good for 3 months
+          after
+          eligible device activation. Plan automatically renews until cancelled. Restrictions and other <a
+            href="https://www.apple.com/promo/">terms</a> apply.
+        </p>
+      </section>
+    </article>
+
+  </main>
+
+  <footer>
+    <p class="contact-apple">More ways to shop: <a href="https://www.apple.com/retail/">Find an Apple Store</a> or <a
+        href="https://locate.apple.com/">other retailer</a> near you. Or
+      call 1-800-MY-APPLE.</p>
+
+    <div class="footer-legal">
+      <div class="footer-legal-copyright">
+        <span>Copyright © 2020 Apple Inc. All rights reserved.</span>
+      </div>
+      <div class="footer-legal-links">
+        <ul>
+          <li><a href="https://www.apple.com/legal/privacy/" class="footer-links">Privacy Policy</a></li>
+          <li><a href="https://www.apple.com/legal/internet-services/terms/site.html" class="footer-links">Terms of
+              Use</a></li>
+          <li><a href="https://www.apple.com/shop/browse/open/salespolicies" class="footer-links">Sales and Refunds</a>
+          </li>
+          <li><a href="https://www.apple.com/legal/" class="footer-links">Legal</a></li>
+          <li><a href="https://www.apple.com/sitemap/" class="footer-links">Site Map</a></li>
+        </ul>
+      </div>
+      <div class="footer-country">
+        <span><a href="https://www.apple.com/choose-country-region/">United States</a></span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
