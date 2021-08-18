@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,500,700');
+
+
+#avatar {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#avatar img {
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+  border-radius: 35px;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+
+.gradient-border {
+  --borderWidth: 3px;
+  position: relative;
+  border-radius: var(--borderWidth);
+  border: 7px dashed #ffffff;
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #1a082e,#470e29, #e82070, #1a082e,#470e29, #e82070);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+#avatar span {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 0.7rem 0;
+  box-sizing: border-box;
+}
+
+#resume {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#social-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+#social-links li {
+  margin: 0 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  flex-wrap: wrap;
+}
+#social-links li a:hover {
+  background: transparent;
+}
+#linkedin-link:hover {
+  color: #086097;
+}
+
+#gh-link:hover {
+  color: #086097;
+}
+
+#profile-link:hover {
+  color: #086097;
+}
+
+#tw-link:hover {
+  color: #086097;
+}
+
+header {
+  background: linear-gradient(to right,#1a082e,#470e29, #e82070, #de4991, #e82070,#470e29,#1a082e);
+  color: #ffffff;
+  height: 37px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  box-shadow: 5px 3px #1a082e;
+  z-index: 1000;
+}
+header span {
+  margin: 0;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 550;
+}
+header span a {
+  color: #ffffff;
+}
+header span a:hover {
+  color: #ffd1dc;
+  background: transparent;
+}
+header nav ul {
+  padding: 0;
+  margin: 0 1rem;
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0.2rem;
+  border-radius: 35px;
+  box-sizing: border-box;
+  margin: 0 0.2rem;
+}
+header nav ul li a:hover {
+  background: #470e29;
+  color: #ffd1dc;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  color: #1a082e;
+  text-decoration: none;
+}
+a:hover {
+  background: #ffd1dc;
+  color: #1a1e2b;
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  margin-top: 35px;
+  padding-bottom: 1rem;
+}
+
+section {
+  min-height: calc(100vh - 30px);
+  height: 100%;
+  padding: 0.5rem;
+  padding-top: 30px;
+  box-sizing: border-box;
+  border-radius: 14.5px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  section {
+    font-size: 17px;
+    min-height: calc(100vh - 30px);
+  }
+}
+
+#projects-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+}
+#projects-list .project-tile {
+  border: 2.5px solid #1a1e2b;
+  border-radius: 14px;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  padding: 0.7rem;
+  box-sizing: border-box;
+  margin: 0.5rem;
+  display: inline-block;
+  width: 45%;
+  max-width: 420px;
+  height: 160px;
+  position: relative;
+}
+#projects-list .project-tile h3 {
+  margin: 0;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+#projects-list .project-tile .project-desc {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+}
+#projects-list .project-tile .project-data {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.4rem 1rem;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+}
+#projects-list .project-tile .project-data .project-links {
+  display: flex;
+  list-style-type: none;
+}
+#projects-list .project-tile .project-data .project-links li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+  #projects-list .project-tile {
+    margin: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: none;
+    height: 190px;
+  }
+  #projects-list .project-tile .project-desc {
+    font-size: 0.9rem;
+  }
+}
+
+#welcome-section {
+  background: url("https://wallpapercave.com/wp/wp2913771.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 3rem;
+}
+#welcome-section h1 {
+  margin: 0;
+  display: inline-block;
+  padding: 0;
+}
+
+#typing-container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+#cursor {
+  font-family: monospace;
+  font-weight: 600;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 720px) {
+  #welcome-section h1 {
+    font-size: 1.7rem;
+  }
+}
+
